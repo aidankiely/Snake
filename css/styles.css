@@ -1,3 +1,4 @@
+
 body {
     min-height: 100vh;
     width: 100vw;
@@ -9,7 +10,7 @@ body {
 }
 
 #game-board {
-    background-color: #ccc;
+    background-color: #c20000;
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -18,11 +19,11 @@ body {
 }
 
 .snake {
-    background-color: hsl(200, 100%, 50%);
+    background-color: hsl(0, 0%, 0%);
     border: .25vmin solid black;
 }
 
 .food {
-    background-color: hsl(50, 100%, 50%);
+    background-color: hsl(0, 0%, 100%);
     border: .25vmin solid black;
 }
