@@ -7,10 +7,11 @@ body {
     align-items: center;
     margin: 0;
     background-color: black;
+  
 }
 
 #game-board {
-    background-color: #c20000;
+  background-image: url('/img/bg.jpg');
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -19,11 +20,30 @@ body {
 }
 
 .snake {
-    background-color: hsl(0, 0%, 0%);
-    border: .25vmin solid black;
+  background-image: url('/img/snake.png');
+  
 }
 
 .food {
-    background-color: hsl(0, 0%, 100%);
-    border: .25vmin solid black;
+    background-image: url('/img/box.png');
+    
+}
+#overlay {
+  position: fixed;
+  margin-top: 100px;
+  display: none; 
+  width: 200px;
+  top: 15%;
+  left: 45%;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer; 
+}
+.scoreB{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
 }
