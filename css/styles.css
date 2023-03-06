@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: black;
+    background-color: white;
   
 }
 
@@ -40,10 +40,11 @@ body {
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer; 
+    color: white;
 }
 .scoreB{
   position: absolute;
   top: 10px;
   left: 10px;
-  color: white;
+  color: black;
 }
